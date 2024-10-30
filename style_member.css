@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+table{
+   width: 50%;
+   position: center;
+   margin: auto;
+   margin-top: 30px;
+}
+table, th, td {
+   border:1px solid black;
+   
+   
+}
+/* Body Styling */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color:rgb(234, 238, 240);
+   color: #333;
+   margin: 0;
+}
+
+.tr1 {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color:rgb(84, 156, 189);
+   color: #333;
+   margin: 0;
+}
+
+.tr2 {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color:rgb(240, 244, 247);
+   color: #333;
+   margin: 0;
+}
+
+.tr3 {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color:rgb(155, 199, 219);
+   color: #333;
+   margin: 0;
+}
+
+/* Header Styling */
+header {
+   background-color: #333;
+   color: white;
+   padding: 1rem;
+   text-align: center;
+}
+   
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 0;
+}
+nav ul li {
+   margin: 0 2rem;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+nav ul li a:hover {
+   text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+   padding: 2rem;
+   background-color: white;
+   margin: 1rem 0;
+   border-radius: 5px;
+}
+
